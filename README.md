@@ -18,4 +18,9 @@ vi cfg.json
  
  # run
  php main.php
+ 
+ # add crontab entry
+ crontab -e
+ ## execute script daily at 2am
+ 0 2 * * * /bin/sh xxx/wordpress-backup-to-google-drive/backup.sh
 ```
