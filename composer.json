@@ -1,0 +1,13 @@
+{
+    "name": "xiuquan/backup",
+    "type": "project",
+    "authors": [
+        {
+            "name": "xiuquanw",
+            "email": "aidenpro.wang@gmail.com"
+        }
+    ],
+    "require": {
+        "google/apiclient": "^2.0"
+    }
+}
